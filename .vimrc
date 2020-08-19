@@ -17,6 +17,11 @@ set statusline+=%#Search#
 set statusline+=\ %l/%L
 set statusline+=\ [%c]
 
+set path+=**
+set wildmenu
+set wildignore+=**/node_modules/**
+set hidden
+
 " Color Settings
 set background=dark cursorline termguicolors
 let g:airline_theme='onedark'
